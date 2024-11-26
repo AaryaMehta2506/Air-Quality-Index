@@ -4,3 +4,9 @@ The resulting AQI provides a numerical value that corresponds to a specific air 
 By developing and implementing this AQI project, it becomes possible to monitor and evaluate air quality conditions comprehensively. The project's outcomes contribute to public health, enabling individuals to make informed decisions about outdoor activities and taking appropriate measures to protect themselves during periods of poor air quality. Additionally, policymakers can use the AQI data to implement effective pollution control measures and formulate targeted strategies for air quality improvement.
 Keywords: Pandas, NumPy, Matplotlib, Seaborn, Feature Extraction, Algorithm, accuracy prediction technique
 Technology: Data Science & Machine Learning
+
+Contributing
+If you'd like to contribute to this project, feel free to fork the repository, make changes, and create a pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
