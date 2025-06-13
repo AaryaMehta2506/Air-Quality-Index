@@ -1,12 +1,101 @@
-Air Quality Index (AQI) has emerged as a valuable tool for measuring and reporting air quality levels. The AQI serves as a standardized metric, providing an accessible and easily understandable assessment of air quality conditions to the public and policymakers. This project aims to develop an AQI system by utilizing data science methodologies.
-By collecting and analyzing various air quality parameters, including pollutants such as particulate matter (PM2.5, PM10), ozone (O3), nitrogen dioxide (NO2), carbon monoxide (CO), and sulfur dioxide (SO2), the project assesses the overall air quality status. These parameters are obtained from reliable monitoring stations strategically placed across different locations.
-The resulting AQI provides a numerical value that corresponds to a specific air quality category, ranging from good to hazardous, enabling individuals and authorities to quickly understand the severity of the air pollution situation. The project's objectives include designing an intuitive and user-friendly interface to display the real-time AQI values and provide historical trends for different locations. Moreover, the system aims to generate informative visualizations and alerts to promote public awareness and inform policy decisions.
-By developing and implementing this AQI project, it becomes possible to monitor and evaluate air quality conditions comprehensively. The project's outcomes contribute to public health, enabling individuals to make informed decisions about outdoor activities and taking appropriate measures to protect themselves during periods of poor air quality. Additionally, policymakers can use the AQI data to implement effective pollution control measures and formulate targeted strategies for air quality improvement.
-Keywords: Pandas, NumPy, Matplotlib, Seaborn, Feature Extraction, Algorithm, accuracy prediction technique
-Technology: Data Science & Machine Learning
+# 🌍 Air Quality Index (AQI) Prediction Web App
 
-Contributing
-If you'd like to contribute to this project, feel free to fork the repository, make changes, and create a pull request.
+This project combines **environmental sensing**, **data science**, and **machine learning** to predict the Air Quality Index (AQI) for a given location. It features a **Flask-based** web interface and uses **historical pollutant data** and **meteorological parameters** for predictions.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
+
+## 🚀 Features
+
+- 🌤️ **Real-time AQI Prediction**: Input live pollutant values (PM2.5, PM10, NO₂, etc.) to get AQI estimates.
+- 📊 **Historical Data Analysis**: Explore trends and patterns using Jupyter notebooks.
+- 🤖 **Multiple ML Models**: Includes regression models like Linear Regression, Random Forest, and XGBoost.
+- 🌐 **Flask Web App**: Users can interact with the model through an easy-to-use web form.
+- 📈 **Model Visualization**: Inspect model performance (RMSE, R²) in Jupyter Notebook.
+- ⚙️ **Model Persistence**: Saved trained models for quick deployment.
+
+---
+
+## 🗂️ Project Structure
+
+Air-Quality-Index/
+├── app.py # Flask web application
+├── requirements.txt # Project dependencies
+├── data/ # Cleaned and raw AQI datasets
+├── notebooks/ # Jupyter notebooks for analysis + model training
+├── models/ # Serialized ML models (e.g., .pkl or .joblib)
+├── templates/ & static/ # Front‑end (HTML, CSS, JS)
+├── README.md # Project overview and instructions
+└── LICENSE # MIT License file
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. 🔄 Clone the Repository
+
+```
+git clone https://github.com/AaryaMehta2506/Air-Quality-Index.git
+cd Air-Quality-Index
+```
+
+2. 🧪 Create a Virtual Environment
+```
+python -m venv env
+source env/bin/activate   # On Windows: env\Scripts\activate
+```
+3. 📦 Install Dependencies
+```
+pip install -r requirements.txt
+```
+4. 🚀 Run the Flask App
+```
+python app.py
+```
+Then visit http://127.0.0.1:5000/ in your browser.
+
+# 📊 Model Training & Evaluation
+To retrain the model or evaluate its performance:
+
+Open the notebooks in notebooks/ (e.g., AQI_Model_Training.ipynb).
+
+Load and preprocess data.
+
+Train regression models and review evaluation metrics.
+
+Save your trained model (e.g., in models/).
+
+# 💡 Example Use Case
+Input pollutant values:
+
+PM2.5 = 85
+
+PM10 = 120
+
+NO₂ = 40
+Output:
+
+# 📍 Predicted AQI: 160 (Unhealthy)
+
+📈 Model accuracy: RMSE = 15.2, R² = 0.82
+
+# 🤝 Contributing
+Contributions are welcome! To get started:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature-xyz)
+
+Commit your changes (git commit -m 'Add feature')
+
+Push and open a pull request
+
+# 📄 License
+This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE).
+
+
+
+## 👩‍💻 Author
+
+**Aarya Mehta**  
+🔗 [GitHub Profile](https://github.com/AaryaMehta2506)
